@@ -1169,13 +1169,18 @@
 		<div class="container mx-auto px-4">
 			<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
 				<div>
-					<a
-						href="/"
-						class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500 inline-block mb-4"
-					>
-						Autono
-					</a>
-					<p class="text-slate-400 mb-6">Potencializando seu negócio com automação inteligente</p>
+					<div class="relative">
+						<a
+							href="/"
+							class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500"
+						>
+							Autono
+						</a>
+						<div
+							class="absolute -bottom-1 left-0 h-[2px] w-1/2 bg-gradient-to-r from-purple-500 to-blue-400"
+						></div>
+					</div>
+					<p class="text-slate-400 mb-6 pt-4">Potencializando seu negócio com automação inteligente</p>
 				</div>
 
 				<div>
