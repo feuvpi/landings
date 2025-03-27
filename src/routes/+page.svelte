@@ -870,160 +870,142 @@
 	</section>
 
 	<!-- Contact Section -->
-	<section id="contato" class="observe-section py-24 relative">
+	<section id="contato-form" class="observe-section py-24 relative">
 		<div class="container mx-auto px-4">
-			<div class="text-center mb-16">
-				<h2
-					class="text-3xl md:text-4xl font-bold mb-4 inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500"
-				>
-					Entre em Contato
-				</h2>
-				<div class="w-20 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-6"></div>
-				<p class="text-slate-300 max-w-xl mx-auto">
-					Estamos prontos para ajudar a transformar sua empresa
-				</p>
-			</div>
-
-			<div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
-				<div class="lg:col-span-2">
-					<div class="space-y-8">
-						<div
-							class="backdrop-blur-sm bg-slate-800/40 border border-slate-700/50 p-6 rounded-sm hover:shadow-lg hover:shadow-purple-900/10 transition-all duration-300"
-						>
-							<div class="flex items-start space-x-4">
-								<div
-									class="shrink-0 w-12 h-12 bg-gradient-to-br from-purple-500/20 to-purple-700/20 rounded-sm flex items-center justify-center"
-								>
-									<i class="fas fa-map-marker-alt text-purple-500"></i>
-								</div>
-								<div>
-									<h3 class="text-lg font-semibold mb-2 text-white">Localização</h3>
-									<p class="text-slate-300">São Paulo, SP - Brasil</p>
-								</div>
-							</div>
-						</div>
-
-						<div
-							class="backdrop-blur-sm bg-slate-800/40 border border-slate-700/50 p-6 rounded-sm hover:shadow-lg hover:shadow-purple-900/10 transition-all duration-300"
-						>
-							<div class="flex items-start space-x-4">
-								<div
-									class="shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500/20 to-blue-700/20 rounded-sm flex items-center justify-center"
-								>
-									<i class="fas fa-envelope text-blue-500"></i>
-								</div>
-								<div>
-									<h3 class="text-lg font-semibold mb-2 text-white">Email</h3>
-									<p class="text-slate-300">contato@autono.com.br</p>
-								</div>
-							</div>
-						</div>
-
-						<div
-							class="backdrop-blur-sm bg-slate-800/40 border border-slate-700/50 p-6 rounded-sm hover:shadow-lg hover:shadow-purple-900/10 transition-all duration-300"
-						>
-							<div class="flex items-start space-x-4">
-								<div
-									class="shrink-0 w-12 h-12 bg-gradient-to-br from-emerald-500/20 to-emerald-700/20 rounded-sm flex items-center justify-center"
-								>
-									<i class="fas fa-phone-alt text-emerald-500"></i>
-								</div>
-								<div>
-									<h3 class="text-lg font-semibold mb-2 text-white">Telefone</h3>
-									<p class="text-slate-300">+55 (11) 9999-8888</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="flex space-x-4 mt-8">
-						<a
-							href="#"
-							class="w-12 h-12 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-sm flex items-center justify-center text-purple-500 hover:text-white transition-all duration-300"
-						>
-							<i class="fab fa-linkedin-in"></i>
-						</a>
-						<a
-							href="#"
-							class="w-12 h-12 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-sm flex items-center justify-center text-blue-500 hover:text-white transition-all duration-300"
-						>
-							<i class="fab fa-twitter"></i>
-						</a>
-						<a
-							href="#"
-							class="w-12 h-12 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-sm flex items-center justify-center text-purple-500 hover:text-white transition-all duration-300"
-						>
-							<i class="fab fa-instagram"></i>
-						</a>
-						<a
-							href="#"
-							class="w-12 h-12 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-sm flex items-center justify-center text-slate-300 hover:text-white transition-all duration-300"
-						>
-							<i class="fab fa-github"></i>
-						</a>
-					</div>
+		  <!-- Section title -->
+		  <div class="text-center mb-16">
+			<h2 class="text-3xl md:text-4xl font-bold mb-4 inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
+			  Entre em Contato
+			</h2>
+			<div class="w-20 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-6"></div>
+			<p class="text-slate-300 max-w-xl mx-auto">
+			  Estamos prontos para ajudar a transformar sua empresa
+			</p>
+		  </div>
+	  
+		  <!-- Contact info cards - visible on desktop, condensed on mobile -->
+		  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+			<!-- Location Card -->
+			<div class="backdrop-blur-sm bg-slate-900/90 border border-slate-800 p-6 rounded-md hover:border-purple-500/30 transition-all duration-300">
+			  <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-4">
+				<div class="mx-auto md:mx-0 shrink-0 w-12 h-12 bg-purple-900/30 rounded-md flex items-center justify-center">
+				  <i class="fas fa-map-marker-alt text-purple-500"></i>
 				</div>
-
-				<div class="lg:col-span-3">
-					<div
-						class="backdrop-blur-sm bg-slate-800/40 border border-slate-700/50 rounded-sm p-8 shadow-lg"
-					>
-						<form>
-							<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-								<div>
-									<label for="name" class="block text-slate-300 mb-2 font-medium">Nome</label>
-									<input
-										type="text"
-										id="name"
-										class="w-full bg-slate-900/70 border border-slate-700 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
-										placeholder="Seu nome completo"
-									/>
-								</div>
-
-								<div>
-									<label for="email" class="block text-slate-300 mb-2 font-medium">Email</label>
-									<input
-										type="email"
-										id="email"
-										class="w-full bg-slate-900/70 border border-slate-700 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
-										placeholder="Seu melhor email"
-									/>
-								</div>
-							</div>
-
-							<div class="mb-6">
-								<label for="company" class="block text-slate-300 mb-2 font-medium">Empresa</label>
-								<input
-									type="text"
-									id="company"
-									class="w-full bg-slate-900/70 border border-slate-700 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
-									placeholder="Nome da sua empresa"
-								/>
-							</div>
-
-							<div class="mb-8">
-								<label for="message" class="block text-slate-300 mb-2 font-medium">Mensagem</label>
-								<textarea
-									id="message"
-									rows="5"
-									class="w-full bg-slate-900/70 border border-slate-700 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
-									placeholder="Como podemos ajudar?"
-								></textarea>
-							</div>
-
-							<button
-								type="submit"
-								class="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-medium py-3 px-6 rounded-sm shadow-lg hover:shadow-purple-900/20 transition-all duration-300"
-							>
-								<i class="fas fa-paper-plane mr-2"></i>
-								Enviar mensagem
-							</button>
-						</form>
-					</div>
+				<div class="text-center md:text-left">
+				  <h3 class="text-lg font-semibold mb-2 text-white">Localização</h3>
+				  <p class="text-slate-300">São Paulo, SP - Brasil</p>
 				</div>
+			  </div>
 			</div>
+	  
+			<!-- Email Card -->
+			<div class="backdrop-blur-sm bg-slate-900/90 border border-slate-800 p-6 rounded-md hover:border-blue-500/30 transition-all duration-300">
+			  <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-4">
+				<div class="mx-auto md:mx-0 shrink-0 w-12 h-12 bg-blue-900/30 rounded-md flex items-center justify-center">
+				  <i class="fas fa-envelope text-blue-500"></i>
+				</div>
+				<div class="text-center md:text-left">
+				  <h3 class="text-lg font-semibold mb-2 text-white">Email</h3>
+				  <p class="text-slate-300">contato@autono.com.br</p>
+				</div>
+			  </div>
+			</div>
+	  
+			<!-- Phone Card -->
+			<div class="backdrop-blur-sm bg-slate-900/90 border border-slate-800 p-6 rounded-md hover:border-emerald-500/30 transition-all duration-300">
+			  <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-4">
+				<div class="mx-auto md:mx-0 shrink-0 w-12 h-12 bg-emerald-900/30 rounded-md flex items-center justify-center">
+				  <i class="fas fa-phone-alt text-emerald-500"></i>
+				</div>
+				<div class="text-center md:text-left">
+				  <h3 class="text-lg font-semibold mb-2 text-white">Telefone</h3>
+				  <p class="text-slate-300">+55 (11) 9999-8888</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	  
+		  <!-- Social media links - centered on mobile -->
+		  <div class="flex justify-center space-x-4 mb-16">
+			<a href="#" class="w-12 h-12 bg-slate-900/80 hover:bg-slate-800 border border-slate-800 rounded-md flex items-center justify-center text-purple-500 hover:text-white hover:border-purple-500/50 transition-all duration-300">
+			  <i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="#" class="w-12 h-12 bg-slate-900/80 hover:bg-slate-800 border border-slate-800 rounded-md flex items-center justify-center text-blue-500 hover:text-white hover:border-blue-500/50 transition-all duration-300">
+			  <i class="fab fa-twitter"></i>
+			</a>
+			<a href="#" class="w-12 h-12 bg-slate-900/80 hover:bg-slate-800 border border-slate-800 rounded-md flex items-center justify-center text-purple-500 hover:text-white hover:border-purple-500/50 transition-all duration-300">
+			  <i class="fab fa-instagram"></i>
+			</a>
+			<a href="#" class="w-12 h-12 bg-slate-900/80 hover:bg-slate-800 border border-slate-800 rounded-md flex items-center justify-center text-slate-300 hover:text-white hover:border-slate-300/50 transition-all duration-300">
+			  <i class="fab fa-github"></i>
+			</a>
+		  </div>
+	  
+		  <!-- Contact Form Section - This part can be directly linked -->
+		  <div id="contato" class="max-w-xl mx-auto">
+			<div class="backdrop-blur-sm bg-slate-900/80 border border-slate-800 rounded-md p-8 shadow-md">
+			  <form>
+				<div class="space-y-6">
+				  <!-- Name field -->
+				  <div>
+					<label for="name" class="block text-slate-300 mb-2 font-medium">Nome</label>
+					<input
+					  type="text"
+					  id="name"
+					  class="w-full bg-slate-900/90 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
+					  placeholder="Seu nome completo"
+					/>
+				  </div>
+	  
+				  <!-- Email field -->
+				  <div>
+					<label for="email" class="block text-slate-300 mb-2 font-medium">Email</label>
+					<input
+					  type="email"
+					  id="email"
+					  class="w-full bg-slate-900/90 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
+					  placeholder="Seu melhor email"
+					/>
+				  </div>
+	  
+				  <!-- Company field -->
+				  <div>
+					<label for="company" class="block text-slate-300 mb-2 font-medium">Empresa</label>
+					<input
+					  type="text"
+					  id="company"
+					  class="w-full bg-slate-900/90 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
+					  placeholder="Nome da sua empresa"
+					/>
+				  </div>
+	  
+				  <!-- Message field -->
+				  <div>
+					<label for="message" class="block text-slate-300 mb-2 font-medium">Mensagem</label>
+					<textarea
+					  id="message"
+					  rows="5"
+					  class="w-full bg-slate-900/90 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300"
+					  placeholder="Como podemos ajudar?"
+					></textarea>
+				  </div>
+	  
+				  <!-- Submit button -->
+				  <button
+					type="submit"
+					class="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-medium py-3 px-6 rounded-md shadow-lg hover:shadow-purple-900/20 transition-all duration-300 flex items-center justify-center space-x-2"
+				  >
+					<i class="fas fa-paper-plane"></i>
+					<span>Enviar mensagem</span>
+				  </button>
+				</div>
+			  </form>
+			</div>
+		  </div>
 		</div>
-	</section>
+	  </section>
+	  
+
 
 	<!-- Footer -->
 	<footer class="bg-slate-900 border-t border-slate-800 pt-16 pb-8">

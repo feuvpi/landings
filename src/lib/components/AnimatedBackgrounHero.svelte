@@ -48,7 +48,7 @@
 </script>
 
 <!-- Enhanced Hero Section with Animated Background -->
-<section class="pt-12 md:pt-44 pb-24 relative overflow-hidden">
+<section class="pt-28 md:pt-44 pb-24 relative overflow-hidden">
   <!-- Fullscreen animated background that extends beyond boundaries -->
   <div class="absolute -inset-1/4 w-[150%] h-[150%] pointer-events-none z-0 opacity-50">
     <!-- Left side paths -->
@@ -142,7 +142,7 @@
         {/if}
       </div>
 
-      <div class="relative">
+      <div class="relative hidden md:block">
         {#if isVisible}
           <div
             class="w-full h-[420px] relative z-10"
