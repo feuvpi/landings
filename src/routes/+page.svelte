@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { fade, fly, scale } from 'svelte/transition';
 	import { spring } from 'svelte/motion';
+	import AnimatedBackgrounHero from '$lib/components/AnimatedBackgrounHero.svelte';
 
 	// Estado para controlar elementos visíveis
 	let isVisible = false;
@@ -280,147 +281,7 @@
 	</nav>
 
 	<!-- Hero Section -->
-	<section class="pt-12 md:pt-44 pb-24 relative overflow-hidden">
-		<div class="container mx-auto px-4">
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-				<div class="z-10">
-					{#if isVisible}
-						<div
-							class="inline-block px-4 py-1 bg-slate-800/80 backdrop-blur-sm border border-slate-700 rounded-sm mb-4"
-							transition:fly={{ y: 20, duration: 700, delay: 100 }}
-						>
-							<span class="text-purple-400 font-medium">Automação Inteligente</span>
-						</div>
-
-						<h1
-							class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
-							transition:fly={{ y: 30, duration: 800, delay: 200 }}
-						>
-							Potencializando seu negócio com <span
-								class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500"
-								>Hiperautomação</span
-							>
-							e
-							<span
-								class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500"
-								>IA</span
-							>.
-						</h1>
-
-						<p
-							class="text-lg text-slate-300 mb-8 max-w-xl"
-							transition:fly={{ y: 30, duration: 800, delay: 400 }}
-						>
-							Transforme processos complexos em fluxos eficientes e inteligentes. Soluções de
-							automação sob medida que geram resultados reais para sua empresa.
-						</p>
-
-						<div
-							class="flex flex-col sm:flex-row gap-4"
-							transition:fly={{ y: 30, duration: 800, delay: 600 }}
-						>
-							<a
-								href="#contato"
-								class="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 text-white font-medium py-3 px-8 rounded-sm shadow-xl hover:shadow-purple-500/20 transition-all duration-300 text-center"
-							>
-								<i class="fas fa-rocket mr-2"></i>
-								Comece agora
-							</a>
-							<a
-								href="#servicos"
-								class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-medium py-3 px-8 rounded-sm transition-all duration-300 text-center"
-							>
-								<i class="fas fa-arrow-right mr-2"></i>
-								Conheça nossas soluções
-							</a>
-						</div>
-					{/if}
-				</div>
-
-				<div class="relative">
-					{#if isVisible}
-						<div
-							class="w-full h-[420px] relative z-10"
-							transition:scale={{ duration: 800, delay: 300, start: 0.8 }}
-						>
-							<!-- Elemento glassmórfico -->
-							<div
-								class="absolute inset-0 bg-slate-800/30 backdrop-blur-md rounded-sm border border-slate-700/50 overflow-hidden shadow-2xl"
-							>
-								<!-- Elementos de automação -->
-								<div class="w-full h-full p-8 relative">
-									<!-- Nodes e conexões -->
-									<div
-										class="absolute w-16 h-16 top-[20%] left-[20%] bg-gradient-to-br from-purple-500 to-purple-700 shadow-lg shadow-purple-500/20 rounded-sm flex items-center justify-center"
-									>
-										<i class="fas fa-database text-white text-xl"></i>
-									</div>
-
-									<div
-										class="absolute w-16 h-16 top-[60%] left-[25%] bg-gradient-to-br from-blue-500 to-blue-700 shadow-lg shadow-blue-500/20 rounded-sm flex items-center justify-center"
-									>
-										<i class="fas fa-cogs text-white text-xl"></i>
-									</div>
-
-									<div
-										class="absolute w-16 h-16 top-[35%] left-[50%] bg-gradient-to-br from-emerald-500 to-emerald-700 shadow-lg shadow-emerald-500/20 rounded-sm flex items-center justify-center"
-									>
-										<i class="fas fa-robot text-white text-xl"></i>
-									</div>
-
-									<div
-										class="absolute w-16 h-16 top-[15%] left-[75%] bg-gradient-to-br from-purple-500 to-blue-700 shadow-lg shadow-purple-500/20 rounded-sm flex items-center justify-center"
-									>
-										<i class="fas fa-brain text-white text-xl"></i>
-									</div>
-
-									<div
-										class="absolute w-16 h-16 top-[70%] left-[70%] bg-gradient-to-br from-blue-500 to-emerald-700 shadow-lg shadow-blue-500/20 rounded-sm flex items-center justify-center"
-									>
-										<i class="fas fa-chart-line text-white text-xl"></i>
-									</div>
-
-									<!-- Linhas de conexão animadas -->
-									<div class="absolute top-[25%] left-[25%] w-[25%] h-[20%]">
-										<div
-											class="w-full h-[2px] bg-gradient-to-r from-purple-500 to-emerald-500 animate-pulse-slow"
-										></div>
-									</div>
-
-									<div
-										class="absolute top-[35%] left-[25%] h-[30%] w-[2px] bg-gradient-to-b from-purple-500 to-blue-500 animate-pulse-slow"
-									></div>
-
-									<div
-										class="absolute top-[40%] left-[50%] w-[25%] h-[2px] bg-gradient-to-r from-emerald-500 to-purple-500 animate-pulse-slow"
-									></div>
-
-									<div
-										class="absolute top-[20%] left-[60%] h-[20%] w-[2px] bg-gradient-to-b from-emerald-500 to-purple-500 animate-pulse-slow"
-									></div>
-
-									<div
-										class="absolute top-[60%] left-[55%] w-[15%] h-[2px] bg-gradient-to-r from-emerald-500 to-blue-500 animate-pulse-slow"
-									></div>
-
-									<!-- Partículas de dados -->
-									<div class="data-particle particle-1"></div>
-									<div class="data-particle particle-2"></div>
-									<div class="data-particle particle-3"></div>
-									<div class="data-particle particle-4"></div>
-								</div>
-							</div>
-
-							<!-- Brilho de fundo -->
-							<div
-								class="absolute -z-10 inset-0 blur-2xl opacity-20 bg-gradient-to-r from-purple-600 via-blue-500 to-emerald-500"
-							></div>
-						</div>
-					{/if}
-				</div>
-			</div>
-		</div>
-	</section>
+	<AnimatedBackgrounHero {isVisible} />
 
 	<!-- Stats Section -->
 	<section
